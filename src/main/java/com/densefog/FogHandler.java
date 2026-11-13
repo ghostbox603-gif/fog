@@ -1,7 +1,7 @@
 package com.densefog;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.FogShape;
+import com.mojang.blaze3d.shaders.FogShape;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.material.FogType;
 import net.minecraftforge.api.distmarker.Dist;
