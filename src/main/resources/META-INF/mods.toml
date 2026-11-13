@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="densefog"
+version="1.0.0"
+displayName="Dense Horror Fog"
+displayTest="IGNORE_SERVER_VERSION"
+description='''
+Sương mù dày đặc, u ám và rùng rợn. Có thứ gì đó đang ẩn nấp phía sau màn sương...
+'''
+
+[[dependencies.densefog]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.densefog]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
